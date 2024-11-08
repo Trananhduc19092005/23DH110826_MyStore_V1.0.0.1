@@ -12,7 +12,7 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
     {
         MyStoreEntities db = new MyStoreEntities();
         // GET: Users/LoginSignIn
-
+        public User user_customer = new User();
 
         public ActionResult SignUp()
         {
@@ -33,6 +33,12 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
                     Repassword = user.Repassword,
                     UserRole = "U"
                 };
+
+                // Lưu thông tin user 
+
+                user_customer.UserRole = "U";
+                user_customer.Password = user.Password;
+                user_customer.Username = user.Username;
 
                 if (ModelState.IsValid)
                 {
@@ -55,7 +61,14 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
             {
                 Session["Role"] = user.UserRole;
                 Session["Username"] = user.Username;
-                return RedirectToAction("Index", "Home2");
+                if (db.Customers.Any(x => x.Username.Equals(user.Username)))
+                {
+                    return RedirectToAction("Index", "Home2");
+                }
+                else
+                {
+                    return RedirectToAction("CreateCustomer", "Customer");
+                }
             }
             return View(user);
         }

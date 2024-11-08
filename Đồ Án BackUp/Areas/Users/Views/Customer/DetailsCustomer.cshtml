@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Đồ_Án_BackUp.Models.Customer>
+@{
+    ViewBag.Title = "DetailsCustomer";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+<style>
+    .customercreate_body {
+        padding: 50px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        width: 500px;
+    }
+
+    .text {
+        height: 70vh;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .test {
+        height: 50%;
+    }
+
+    p
+    {
+        border-radius : 20px;
+    }
+</style>
+
+@foreach (var customers in Model)
+{
+    if (Session["Username"].ToString().Equals(customers.Username))
+    {
+        <div class="container">
+        </div>
+        <div class="container text mt-5">
+            <div class="d-flex test align-items-center justify-content-center" style="margin: 200px 0 0 0">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Logo_Tiki_2023.png" />
+                <div class="customercreate_body" style="margin : 50px 0 0 100px;">
+                    <div class="form-group">
+                        <h6> Tên Người Dùng</h6>
+                        <p class="bg-info text-light p-3">
+                            @Html.DisplayFor(model => customers.Username)
+                        </p>
+                        <h6> Tên Khách Hàng</h6>
+                        <p class="bg-info text-light p-3">
+                            @Html.DisplayFor(model => customers.CustomerName)
+                        </p>
+                        <h6> Số Điện Thoại </h6>
+                        <p class="bg-info text-light p-3"> 
+                            @Html.DisplayFor(model => customers.CustomerPhone)
+                        </p>
+                        <h6> Email </h6>
+                        <p class="bg-info text-light p-3">
+                            @Html.DisplayFor(model => customers.CustomerEmail)
+                        </p>
+                        <h6> Địa Chỉ </h6>
+                        <p class="bg-info text-light p-3">
+                            @Html.DisplayFor(model => customers.CustomerAddress)
+                        </p>
+
+                        @Html.ActionLink("Chỉnh Sửa" , "Edit" , "Customer", new {id = customers.CustomerID} , new {@class = "btn btn-success"})
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }
+}
+

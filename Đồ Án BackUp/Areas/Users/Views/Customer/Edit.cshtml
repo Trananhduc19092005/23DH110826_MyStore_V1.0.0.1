@@ -1,0 +1,63 @@
+﻿@model Đồ_Án_BackUp.Models.Customer
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+
+<style>
+    .customercreate_body {
+        padding: 50px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        width: 500px;
+    }
+
+    .text {
+        height: 70vh;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .test {
+        height: 50%;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.CustomerID)
+    @Html.AntiForgeryToken()
+
+    <div class="container">
+    </div>
+    <div class="container text mt-5">
+        <h5 style="margin : 200px 0 0 180px;"> Chỉnh Sửa Thông Tin Giao Hàng </h5>
+        <div class="mt-5 d-flex test align-items-center justify-content-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Logo_Tiki_2023.png" />
+            <div class="customercreate_body" style="margin : 50px 0 0 100px;">
+                <div class="form-group">
+                    <h6> Tên Khách Hàng</h6>
+                    @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
+
+                    <h6> Số Điện Thoại </h6>
+                    @Html.EditorFor(model => model.CustomerPhone, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
+
+                    <h6> Email </h6>
+                    @Html.EditorFor(model => model.CustomerEmail, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
+
+                    <h6> Địa Chỉ </h6>
+                    @Html.EditorFor(model => model.CustomerAddress, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
+
+
+                    <input type="submit" value="Lưu" class="btn btn-primary mt-2" />
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+}
+

@@ -24,11 +24,11 @@ namespace Đồ_Án_BackUp.Models
         [Required(ErrorMessage = "This Field Must Be Field")]
         public string Username { get; set; }
 
-        [DataType(DataType.Password)]
         [Required(ErrorMessage = "This Field Must Be Field")]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [DataType(DataType.Password)]
+        [Required(ErrorMessage = "This Field Must Be Field")]
         [Compare("Password" , ErrorMessage = "PassWord Doesn't Match")]
         public string Repassword { get; set; }
         public string UserRole { get; set; }

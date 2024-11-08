@@ -43,13 +43,29 @@
                 </div>
 
                 <div class="header-Phone-number-UserAccount-ShoppingCart UserAccount-ShoppingCart d-flex justify-content-around">
-                    <div class="UserAccount">
-                        <i class="fa-solid fa-user"></i> User
-                    </div>
+                    @if (Session["Username"] != null)
+                    {
+                        <div class="UserAccount">
+                            <a href="/Users/Customer/DetailsCustomer" class="text-dark">
+                                <i class="fa-solid fa-user text-decoration-none"></i> Chào Mừng @Session["Username"].ToString()
+                            </a>
+                        </div>
 
-                    <div class="ShoppingCart">
-                        <i class="fa-solid fa-cart-shopping"></i> ShoppingCart
-                    </div>
+                        <div class="ShoppingCart">
+                            <i class="fa-solid fa-cart-shopping"></i> ShoppingCart
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="UserAccount d-flex">
+                            @Html.ActionLink("SignUp", "SignUp", "LoginSignIn", new { Area = "Users" }, new { @class = "btn btn-primary " })
+                            @Html.ActionLink("LogIn", "Login", "LoginSignIn", new { Area = "Users" }, new { @class = "btn btn-success " })
+                        </div>
+
+                        <div class="ShoppingCart" style="margin-top : 7px;">
+                            <i class="fa-solid fa-cart-shopping"></i> ShoppingCart
+                        </div>
+                    }
                 </div>
             </div>
 
@@ -63,11 +79,11 @@
                 </div>
 
                 <div class="col col-4 test text-center">
-                    @Html.ActionLink("Trang Chủ", "Index", "Home2", new { @class = "TrangChuBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
-                    @Html.ActionLink("Áo", "AoHomePage", "Home2", new { @class = "AoBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
-                    @Html.ActionLink("Quần", "QuanHomePage", "Home2", new { @class = "QuanBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
-                    @Html.ActionLink("Phụ Kiện", "PhuKienHomePage", "Home2", new { @class = "PhuKienBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
-                    @Html.ActionLink("Giày", "GiayDepHomePage", "Home2", new { @class = "GiayDepBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                    @Html.ActionLink("Trang Chủ", "Index", "Home2", new { Area = "Users" }, new { @class = "TrangChuBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                    @Html.ActionLink("Áo", "AoHomePage", "Home2", new { Area = "Users" } , new { @class = "AoBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                    @Html.ActionLink("Quần", "QuanHomePage", "Home2", new { Area = "Users" }, new { @class = "QuanBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                    @Html.ActionLink("Phụ Kiện", "PhuKienHomePage", "Home2", new { Area = "Users" }, new { @class = "PhuKienBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                    @Html.ActionLink("Giày", "GiayDepHomePage", "Home2", new { Area = "Users" }, new { @class = "GiayDepBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
                 </div>
 
                 <div class="col col-4 text-end">

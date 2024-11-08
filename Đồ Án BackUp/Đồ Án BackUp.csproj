@@ -138,6 +138,7 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\CategoriesController.cs" />
     <Compile Include="Areas\Admin\Controllers\ProductsController.cs" />
+    <Compile Include="Areas\Users\Controllers\CustomerController.cs" />
     <Compile Include="Areas\Users\Controllers\Home2Controller.cs" />
     <Compile Include="Areas\Users\Controllers\LoginSignInController.cs" />
     <Compile Include="Areas\Users\UsersAreaRegistration.cs" />
@@ -256,6 +257,9 @@
     <Content Include="Areas\Users\Views\Home2\PatialView_Search_OrderBy_Products.cshtml" />
     <Content Include="Areas\Users\Views\LoginSignIn\SignUp.cshtml" />
     <Content Include="Areas\Users\Views\LoginSignIn\Login.cshtml" />
+    <Content Include="Areas\Users\Views\Customer\CreateCustomer.cshtml" />
+    <Content Include="Areas\Users\Views\Customer\DetailsCustomer.cshtml" />
+    <Content Include="Areas\Users\Views\Customer\Edit.cshtml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
