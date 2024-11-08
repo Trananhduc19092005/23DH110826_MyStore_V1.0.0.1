@@ -1,0 +1,18 @@
+﻿@model Đồ_Án_BackUp.Models.Category
+
+
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminMasterLayout.cshtml";
+
+}
+
+<div class="container d-flex flex-column align-items-center mt-5 mb-4">
+    <p> WelCome To Category Managerment In here you can manage category items </p>
+    <p> Choose Your Option </p>
+    <div class="option m-2">
+        @Html.ActionLink("Create", "Create", "Categories", new { @class = "btn btn-primary m-2" })
+        @Html.ActionLink("Category Detail (Edit / Delete / Show List)", "index", "Categories", new { @class = "btn btn-primary m-2" })
+    </div>
+</div>
+

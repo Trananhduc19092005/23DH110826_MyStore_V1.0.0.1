@@ -1,0 +1,151 @@
+﻿@model Đồ_Án_BackUp.Models.ViewModel.ProductSearchVM
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<style>
+    img
+    {
+        width : 200px;
+        height : 200px;
+    }
+
+    pagination a
+    {
+        background: red;
+    }
+    
+  
+</style>
+<h2 class="text-center mt-5 mb-5">--------- Product ----------</h2>
+
+
+<div class="d-flex flex-column align-items-center">
+    @using (Html.BeginForm("Index", "Products", FormMethod.Post))
+    {
+        <div class="form-group mt-2 mb-3 d-flex">
+            <input type="search" name="FindProduct" placeholder="Tìm Kiếm Theo Tên Sản Phẩm" class="form-control" />
+            <input type="number" name="MinPrice" placeholder="Nhập Giá Tối Thiểu" class="form-control" />
+            <input type="number" name="MaxPrice" placeholder="Nhập Giá Tối Đa" class="form-control" />
+            <input type="submit" value="FindProducts" class="btn btn-primary" />
+        </div>
+
+
+        <div class="mb-3">
+            @Html.ActionLink("Sắp Xếp Tăng Dần Theo ID", "Index", "Products",
+            new { FindProduct = Model.FindProducts, OrderBy = "name_asc"  
+            , MinPrice = Model.MinPrice , MaxPrice = Model.MaxPrice},
+            new { @class = "btn btn-outline-primary" })
+
+            @Html.ActionLink("Sắp Xếp Giảm Dần Theo ID", "Index", "Products",
+            new { FindProduct = Model.FindProducts, OrderBy = "name_desc", MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice },
+            new { @class = "btn btn-outline-primary" })
+
+            @Html.ActionLink("Sắp Xếp Giảm Dần Theo Giá", "Index", "Products",
+            new { FindProduct = Model.FindProducts, OrderBy = "price_asc", MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice },
+            new { @class = "btn btn-outline-primary" })
+
+            @Html.ActionLink("Sắp Xếp Giảm Dần Theo Giá", "Index", "Products",
+            new { FindProduct = Model.FindProducts, OrderBy = "price_desc", MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice },
+            new { @class = "btn btn-outline-primary" })
+        </div>
+
+    }
+</div>
+
+
+
+
+<div class="container">
+    <table class="table table-dark table-striped w-100">
+        <tr>
+            <th scope="col" class="text-start">
+                <p>
+                    Product ID
+                </p>
+            </th>
+
+            <th scope="col" class="">
+                Product Name
+            </th>
+
+            <th class="">
+                Product Descripition
+            </th>
+
+            <th class="">
+                Product Price
+            </th>
+
+            <th class="text-start">
+                Product Image
+            </th>
+
+            <th class="text-start">
+                Category Class
+            </th>
+
+            <th class="">
+                Tùy Chọn
+            </th>
+        </tr>
+
+
+
+        @foreach (var items in Model.Products)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(x => items.ProductID)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(x => items.ProductName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(x => items.ProductDescription)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(x => items.ProductPrice)
+                </td>
+
+                <td>
+                    <img src="@Html.DisplayFor(x => items.ProductImage)"/>
+                </td>
+
+                <td>
+                    @Html.DisplayFor(x => items.Category.CategoryName)
+                </td>
+
+                <td>
+
+                    @Html.ActionLink("Chỉnh Sửa", "Edit", "Products", 
+                   new { id = items.ProductID }, 
+                   new {@class = "btn btn-primary"})
+
+                    @Html.ActionLink("Chi Tiết", "Details", "Products", 
+                   new { id = items.ProductID }, 
+                   new { @class = "btn btn-success" })
+
+                    @Html.ActionLink("Xóa Sản Phẩm", "Delete", "Products", 
+                   new { id = items.ProductID }, 
+                   new { @class = "btn btn-danger" })
+
+                </td>
+
+            </tr>
+        }
+    </table>
+
+
+    <div class="pagination">
+        @Html.PagedListPager(Model.Products , page => Url.Action("Index" ,
+       new {page , FindProduct = Model.FindProducts, OrderBy = Model.OrderBy, MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice }))
+    </div>
+    @Html.ActionLink("Create A New Product" , "Create" , "Products" , new {area = "Admin"} , new {@class = "btn btn-primary"})
+    @Html.ActionLink("Back To Product Home ", "Home", " ", new { @class = "btn btn-success mt-3 mb-3" })
+</div>

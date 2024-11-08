@@ -1,0 +1,41 @@
+﻿@model Đồ_Án_BackUp.Models.Category
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<h2 class="text-center mt-5 mb-5">Details</h2>
+
+<div class="container">
+    <hr />
+
+    <table class="table table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryID)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayFor(model => model.CategoryID)
+            </th>
+
+            <th>
+                @Html.DisplayFor(model => model.CategoryName)
+            </th>
+        </tr>
+    </table>
+
+    <p>
+        @Html.ActionLink("Edit", "Edit", " ", new { id = Model.CategoryID} , new {@class="btn btn-primary"}) |
+        @Html.ActionLink("Back To List", "Index", " ", new { id = Model.CategoryID, @class = "btn btn-primary" }) |
+        @Html.ActionLink("Back To Catory Home", "Home", " ", new { id = Model.CategoryID, @class = "btn btn-success" })
+    </p>
+</div>
+

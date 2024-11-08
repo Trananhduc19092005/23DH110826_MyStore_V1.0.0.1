@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<div class="container d-flex flex-column align-items-center mt-5 mb-4">
+    <p> WelCome To Product Managerment In here you can manage product items </p>
+    <p> Choose Your Option </p>
+    <div class="option m-2">
+        @Html.ActionLink("Create", "Create", "", new { @class = "btn btn-primary m-2" })
+        @Html.ActionLink("Product Detail (Edit / Delete / Show List)", "Index", "", new { @class = "btn btn-primary m-2" })
+    </div>
+</div>
+

@@ -1,0 +1,37 @@
+﻿@model Đồ_Án_BackUp.Models.ViewModel.ProductSearchUser
+
+
+<style>
+    img {
+        width : 100%;
+        height : 450px;
+        object-fit : cover;
+    }
+</style>
+
+<div class="row row-cols-4 " style="margin : 0 20px">
+    @foreach (var items in Model.products)
+    {
+        <div class="col col-3 mt-5">
+            <div class="Shirt_ThongTin">
+                <div class="Shirt_ThongTin_Img">
+                    <img src="@Html.DisplayFor(model => items.ProductImage)" />
+                </div>
+
+                <div class="Shirt_ThongTin_Name d-flex justify-content-center mt-3">
+                    <p>
+                        @Html.DisplayFor(model => items.ProductName)
+                    </p>
+                </div>
+
+                <div class="Shirt_ThongTin_Price d-flex justify-content-center">
+                    <p> @Html.DisplayFor(model => items.ProductPrice) </p>
+                </div>
+
+                <div class="Shirt_ThongTin_Btn d-flex justify-content-center" style="margin-bottom : auto">
+                    @Html.ActionLink("Xem Thêm", "Details", "Home2", new { id = items.ProductID }, new { @class = "btn btn-primary" })
+                </div>
+            </div>
+        </div>
+    }
+</div>

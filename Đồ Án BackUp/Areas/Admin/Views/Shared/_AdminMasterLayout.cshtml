@@ -1,0 +1,32 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+</head>
+<body>
+    <style>
+        header
+        {
+            height : 100px;
+        }
+    </style>
+    <div class="container-fluid">
+        <header class="d-flex flex-column justify-content-center align-items-center bg-info text-light">
+            WelCome To Admin Page | Choose Items You Wanna Manage
+            <nav class="mt-2 mb-2">
+                @Html.ActionLink("Manage Category", "Index", "Categories", new {area = "Admin"},new { @class = "btn btn-primary btn-sm" , Area = "Admin" })
+                @Html.ActionLink("Manage Product", "Index", "Products", new { area = "Admin" } , new { @class = "btn btn-primary btn-sm" })
+                @Html.ActionLink("Manage Account", " ", "", new { @class = "btn btn-primary btn-sm" })
+            </nav>
+        </header>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

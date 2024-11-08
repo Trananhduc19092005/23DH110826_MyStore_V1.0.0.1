@@ -1,0 +1,52 @@
+﻿@model Đồ_Án_BackUp.Models.Product
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2>
+        Xóa Sản Phẩm
+    </h2>
+
+    <h2>
+        Bạn Có Chắc là muốn xóa sản phẩm này không
+    </h2>
+
+    <div>
+        <h4>Product</h4>
+        <hr />
+        <div class="card">
+            <div class="card-header">
+                <h4> Tên Sản Phẩm </h4>
+                @Html.DisplayFor(model => model.ProductName)
+            </div>
+
+            <div class="card-body d-flex flex-column">
+                <h4 class="mb-3 mt-3"> Mô Tả Sản Phẩm </h4>
+                @Html.DisplayFor(model => model.ProductDescription, new { @class = "" })
+                <h4 class="mt-3 mb-3"> Giá Sản Phẩm </h4>
+                @Html.DisplayFor(model => model.ProductPrice)
+                <img src="@Html.DisplayFor(model => model.ProductImage)" />
+            </div>
+
+            <div class="card-footer">
+                Sản phẩm thuộc danh mục :
+                @Html.DisplayFor(model => model.Category.CategoryName)
+            </div>
+
+        </div>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color mt-3">
+                <input type="submit" value="Delete" class="btn btn-danger" /> |
+                @Html.ActionLink("Back to List", "Index", "", new { @class = "btn btn-primary" })
+            </div>
+        }
+    </div>
+
+</div>

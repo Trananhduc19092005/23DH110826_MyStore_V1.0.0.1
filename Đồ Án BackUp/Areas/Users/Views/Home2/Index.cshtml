@@ -1,0 +1,166 @@
+﻿@model IEnumerable<Đồ_Án_BackUp.Models.Product>
+
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+
+<style>
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .TrangChuBtn {
+        background: #0B5ED7;
+        color: white;
+        padding: 10px;
+    }
+</style>
+
+<img src="https://pos.nvncdn.com/f4d87e-8901/bn/20241026_ojW2mdTy.gif" />
+
+<div>
+    <h3 class="text-uppercase mt-4 mb-4 text-center">
+        ------------------- Áo -----------------------
+    </h3>
+
+    <div class="row row-cols-4">
+        @foreach (var items in Model)
+        {
+            if (items.Category.CategoryName == "Quần Áo")
+            {
+                <div class="col col-3">
+                    <div class="Shirt_ThongTin">
+                        <div class="Shirt_ThongTin_Img">
+                            <img src="@Html.DisplayFor(model => items.ProductImage)" />
+                        </div>
+
+                        <div class="Shirt_ThongTin_Name d-flex justify-content-center mt-3">
+                            <p>
+                                @Html.DisplayFor(model => items.ProductName)
+                            </p>
+                        </div>
+
+                        <div class="Shirt_ThongTin_Price d-flex justify-content-center">
+                            <p> @Html.DisplayFor(model => items.ProductPrice) </p>
+                        </div>
+
+
+                        <div class="Shirt_ThongTin_Btn d-flex justify-content-center">
+                            @Html.ActionLink("Xem Thêm", "Details", "Home2", 
+                           new { id = items.ProductID }, 
+                           new { @class = "btn btn-primary" })
+                        </div>
+
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+    <h3 class="text-uppercase mt-4 mb-4 text-center">
+        ------------------- Quần -----------------------
+    </h3>
+
+    <div class="row row-cols-4">
+        @foreach (var items in Model)
+        {
+            if (items.Category.CategoryName == "Quần")
+            {
+                <div class="col col-3">
+                    <div class="Shirt_ThongTin">
+                        <div class="Shirt_ThongTin_Img">
+                            <img src="@Html.DisplayFor(model => items.ProductImage)" />
+                        </div>
+
+                        <div class="Shirt_ThongTin_Name d-flex justify-content-center mt-3">
+                            <p>
+                                @Html.DisplayFor(model => items.ProductName)
+                            </p>
+                        </div>
+
+                        <div class="Shirt_ThongTin_Price d-flex justify-content-center">
+                            <p> @Html.DisplayFor(model => items.ProductPrice) </p>
+                        </div>
+
+                        <div class="Shirt_ThongTin_Btn d-flex justify-content-center">
+                            @Html.ActionLink("Xem Thêm", "Details", "Home2", new { id = items.ProductID }, new { @class = "btn btn-primary" })
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+    <h3 class="text-uppercase mt-4 mb-4 text-center">
+        ------------------- Phụ Kiện -----------------------
+    </h3>
+
+    <div class="row row-cols-4">
+        @foreach (var items in Model)
+        {
+            if (items.Category.CategoryName == "Phụ Kiện")
+            {
+                <div class="col col-3">
+                    <div class="Shirt_ThongTin">
+                        <div class="Shirt_ThongTin_Img">
+                            <img src="@Html.DisplayFor(model => items.ProductImage)" />
+                        </div>
+
+                        <div class="Shirt_ThongTin_Name d-flex justify-content-center mt-3">
+                            <p>
+                                @Html.DisplayFor(model => items.ProductName)
+                            </p>
+                        </div>
+
+                        <div class="Shirt_ThongTin_Price d-flex justify-content-center">
+                            <p> @Html.DisplayFor(model => items.ProductPrice) </p>
+                        </div>
+
+                        <div class="Shirt_ThongTin_Btn d-flex justify-content-center">
+                            @Html.ActionLink("Xem Thêm", "Details", "Home2", new { id = items.ProductID }, new { @class = "btn btn-primary" })
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+    <h3 class="text-uppercase mt-4 mb-4 text-center">
+        ------------------- Giày Dép -----------------------
+    </h3>
+
+    <div class="row row-cols-4">
+        @foreach (var items in Model)
+        {
+            if (items.Category.CategoryName == "Giày dép")
+            {
+                <div class="col col-3">
+                    <div class="Shirt_ThongTin">
+                        <div class="Shirt_ThongTin_Img">
+                            <img src="@Html.DisplayFor(model => items.ProductImage)" />
+                        </div>
+
+                        <div class="Shirt_ThongTin_Name d-flex justify-content-center mt-3">
+                            <p>
+                                @Html.DisplayFor(model => items.ProductName)
+                            </p>
+                        </div>
+
+                        <div class="Shirt_ThongTin_Price d-flex justify-content-center">
+                            <p> @Html.DisplayFor(model => items.ProductPrice) </p>
+                        </div>
+
+                        <div class="Shirt_ThongTin_Btn d-flex justify-content-center">
+                            @Html.ActionLink("Xem Thêm", "Details", "Home2", new { id = items.ProductID }, new { @class = "btn btn-primary" })
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Đồ_Án_BackUp.Models.Product>
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+
+<style>
+    .test a{
+        padding : 10px;
+    }
+
+    .GiayDepBtn {
+        background: #0B5ED7;
+        color: white;
+        padding: 10px;
+    }
+</style>
+<div class="mt-5 mb-5" style="margin-left : 30px;">
+    @Html.ActionLink("Trang Chủ", "Index", "Home2", new { @class = "text-uppercase btn btn-outline-primary" }) ------->
+    @Html.ActionLink("Giày Dép", "GiayDepHomePage", "Home2", new { @class = "text-uppercase btn btn-outline-success" })
+</div>
+
+<div class="d-flex justify-content-center test">
+
+    @using (Html.BeginForm("GiayDepHomePage", "Home2", FormMethod.Post))
+    {
+        @Html.ActionLink("Sắp Xếp Tăng Dần Theo Giá", "GiayDepHomePage", "Home2",
+         new { OrderByPrice = "price_asc" },
+         new { @class = "btn btn-outline-primary" })
+
+        @Html.ActionLink("Sắp Xếp Giảm Dần Theo Giá", "GiayDepHomePage", "Home2",
+         new { OrderByPrice = "price_desc" },
+         new { @class = "btn btn-outline-primary" })
+    }
+</div>
+
+@Html.Partial("PartielViewProduct", Model)
+
+

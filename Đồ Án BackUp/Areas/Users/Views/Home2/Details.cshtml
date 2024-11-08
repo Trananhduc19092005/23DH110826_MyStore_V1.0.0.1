@@ -1,0 +1,56 @@
+﻿@model Đồ_Án_BackUp.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+
+<style>
+    img
+    {
+        width : 500px;
+        border-radius : 30px;
+    }
+    button
+    {
+        width : 30px;
+    }
+
+    label 
+    {
+    }
+</style>
+
+<div class="d-flex justify-content-center">
+    <div class="d-flex mt-3">
+        <div>
+            <img src="@Html.DisplayFor(model => model.ProductImage)" />
+        </div>
+
+        <div style="margin : 10px 20px">
+            <div class="product_name">
+                @Html.DisplayFor(model => model.ProductName)
+            </div>
+
+            <div class="product_trangthai mt-2">
+                <p> Còn Hàng </p>
+            </div>
+
+            <hr />
+
+            <div class="product_price">
+                @Html.DisplayFor(model => model.ProductPrice)
+            </div>
+
+            <div class="product_numbertoadd mt-3 mb-3">
+                <button type="button"> + </button>
+                <label> 0 </label>
+                <button type="button"> - </button>
+            </div>
+
+            <div class="product_addtocart">
+                @Html.ActionLink("Thêm Vào Giỏ Hàng" , "" , "" , null , new {@class = "btn btn-primary"})
+            </div>
+        </div>
+    </div>
+</div>

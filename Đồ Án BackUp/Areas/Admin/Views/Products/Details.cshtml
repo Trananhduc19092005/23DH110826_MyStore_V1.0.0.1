@@ -1,0 +1,79 @@
+﻿@model Đồ_Án_BackUp.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<style>
+    img {
+        width: 200px;
+        height: 200px;
+    }
+</style>
+
+<h2 class="text-center mt-5 mb-5">Details</h2>
+
+<div class="container">
+    <hr />
+
+    <table class="table table-dark">
+        <tr>
+            <th>
+                ProductID
+            </th>
+
+            <th>
+                ProductName
+            </th>
+
+            <th>
+                ProductDescription
+            </th>
+
+            <th>
+                ProductPrice
+            </th>
+
+            <th>
+                ProductImage
+            </th>
+
+            <th>
+                Category Class
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(items => items.ProductID)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.ProductName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.ProductDescription)
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.ProductPrice)
+            </td>
+
+            <td>
+                <img src="@Html.DisplayFor(x => x.ProductImage)" />
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.Category.CategoryName)
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        @Html.ActionLink("Edit", "Edit", " ", new { id = Model.CategoryID }, new { @class = "btn btn-primary" }) |
+        @Html.ActionLink("Back To List", "Index", " ", new { id = Model.CategoryID, @class = "btn btn-primary" }) |
+        @Html.ActionLink("Back To Catory Home", "Home", " ", new { id = Model.CategoryID, @class = "btn btn-success" })
+    </p>
+</div>

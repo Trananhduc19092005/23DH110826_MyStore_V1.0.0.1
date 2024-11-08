@@ -1,0 +1,47 @@
+﻿@model Đồ_Án_BackUp.Models.ViewModel.ProductSearchUser
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+
+<div style="margin : 60px 0 20px 30px;">
+    @Html.ActionLink("Trang Chủ", "Index", "Home2", new { @class = "text-uppercase btn btn-outline-primary" }) ------->
+    @Html.ActionLink("Tìm Kiếm", "Search", "Home2", new { @class = "text-uppercase btn btn-outline-success" })
+</div>
+
+<div style="margin : 50px 0 0 0" class="d-flex justify-content-center">
+    @using (Html.BeginForm("Search", "Home2", FormMethod.Post))
+    {
+        <div class="d-flex justify-content-center" style="height : 60px;">
+            <input type="search" placeholder="Tìm Kiếm Theo Tên Sản Phẩm" name="ProductName" class="form-control" style="width : 60% ; height : 100%" />
+            <input type="submit" value="Tìm Kiếm" class="btn btn-primary" style="height : 100%" />
+        </div>
+
+        <div class="mt-4">
+            @Html.ActionLink("Sắp Xếp Tăng Dần Theo Tên Sản Phẩm", "Search", "Home2",
+             new
+             {
+                 ProductName = Model.FindProducts,
+                 OrderBy = "name_asc",
+                 MinPrice = Model.MinPrice,
+                 MaxPrice = Model.MaxPrice
+             },
+             new { @class = "btn btn-outline-primary" })
+
+            @Html.ActionLink("Sắp Xếp Tăng Dần Theo Tên Sản Phẩm", "Search", "Home2",
+             new { ProductName = Model.FindProducts, OrderBy = "name_desc", MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice },
+             new { @class = "btn btn-outline-primary" })
+
+            @Html.ActionLink("Sắp Xếp Tăng Dần Theo Giá", "Search", "Home2",
+             new { ProductName = Model.FindProducts, OrderBy = "price_asc", MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice },
+             new { @class = "btn btn-outline-primary" })
+
+            @Html.ActionLink("Sắp Xếp Giảm Dần Theo Giá", "Search", "Home2",
+             new { ProductName = Model.FindProducts, OrderBy = "price_desc", MinPrice = Model.MinPrice, MaxPrice = Model.MaxPrice },
+             new { @class = "btn btn-outline-primary" })
+            
+        </div>
+    }
+</div>
+
+@Html.Partial("PatialView_Search_OrderBy_Products" , Model)

@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_UserMasterLayout</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/131e0ec2d1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        *{
+            margin : 0;
+            padding : 0;
+            box-sizing : border-box;
+        }
+
+        .header-Phone-number-UserAccount-ShoppingCart {
+            padding: 0 10px;
+        }
+
+        .UserAccount {
+            margin: 0 20px;
+        }
+
+        .test a {
+            margin: 0 5px;
+        }   
+
+        nav
+        {
+            padding : 0 20px;
+        }
+    </style>
+
+    <div class="container-fluid">
+        <header>
+            <!-- Phone-number-UserAccount-ShoppingCart -->
+
+            <div class="header-Phone-number-UserAccount-ShoppingCart d-flex justify-content-between mt-4 mb-3">
+                <div class="header-Phone-number-UserAccount-ShoppingCart Phone-number">
+                    <i class="fa-solid fa-phone"></i> 0914.370.300
+                </div>
+
+                <div class="header-Phone-number-UserAccount-ShoppingCart UserAccount-ShoppingCart d-flex justify-content-around">
+                    <div class="UserAccount">
+                        <i class="fa-solid fa-user"></i> User
+                    </div>
+
+                    <div class="ShoppingCart">
+                        <i class="fa-solid fa-cart-shopping"></i> ShoppingCart
+                    </div>
+                </div>
+            </div>
+
+            <!-- NavBar -->
+
+            <nav class="row row-cols-3">
+                <div class="col col-4 logo">
+                    <a href="/Users/Home2/Index" class="text-uppercase text-decoration-none text-dark">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </div>
+
+                <div class="col col-4 test text-center">
+                    @Html.ActionLink("Trang Chủ", "Index", "Home2", new { @class = "TrangChuBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                    @Html.ActionLink("Áo", "AoHomePage", "Home2", new { @class = "AoBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                    @Html.ActionLink("Quần", "QuanHomePage", "Home2", new { @class = "QuanBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                    @Html.ActionLink("Phụ Kiện", "PhuKienHomePage", "Home2", new { @class = "PhuKienBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                    @Html.ActionLink("Giày", "GiayDepHomePage", "Home2", new { @class = "GiayDepBtn text-uppercase text-decoration-none  fs-6 btn btn-outline-primary" })
+                </div>
+
+                <div class="col col-4 text-end">
+                    <a class="text-end text-dark" href="/Users/Home2/Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>                    
+                    </a>
+                </div>
+
+            </nav>
+        </header>
+
+        <div class="mt-4 mb-4">
+            @RenderBody()
+        </div>
+
+        <hr />
+
+        <footer>
+            This Web Was Created By 23DH110826_TranAnhDuc
+        </footer>
+    </div>
+    
+</body>
+</html>

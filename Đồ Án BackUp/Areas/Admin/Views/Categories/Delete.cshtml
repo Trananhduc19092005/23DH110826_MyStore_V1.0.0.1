@@ -1,0 +1,45 @@
+﻿@model Đồ_Án_BackUp.Models.Category
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminMasterLayout.cshtml";
+}
+
+<h2 class="text-center mt-5 mb-5">Delete</h2>
+<h3 class="text-center mt-5 mb-5"> Are You Sure That you wanna delete this Catogery ? </h3>
+
+<div class="container">
+    <table class="table table-dark">
+        <tr>
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.CategoryID)
+            </th>
+
+            <th class="text-center">
+                @Html.DisplayNameFor(model => model.CategoryName)
+
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.CategoryID)
+            </td>
+
+            <td class="text-end">
+                @Html.DisplayFor(model => model.CategoryName)
+            </td>
+        </tr>
+    </table>
+
+    @using (Html.BeginForm("Delete" , "Categories" , FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to List", "Index", " ", new { @class = "btn btn-primary" }) |
+            @Html.ActionLink("Back to Home", "Home", " ", new { @class = "btn btn-success" })
+        </div>
+
+    }
+</div>
