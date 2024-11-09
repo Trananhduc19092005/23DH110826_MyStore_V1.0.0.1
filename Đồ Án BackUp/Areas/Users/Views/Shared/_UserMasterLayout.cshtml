@@ -52,7 +52,7 @@
                         </div>
 
                         <div class="ShoppingCart">
-                            <i class="fa-solid fa-cart-shopping"></i> ShoppingCart
+                            @Html.ActionLink("Giỏ Hàng" , "Index" , "Categories" , new {Area = "Users"} , new {@class = "text-decoration-none text-dark"})
                         </div>
                     }
                     else

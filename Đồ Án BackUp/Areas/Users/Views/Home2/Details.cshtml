@@ -15,10 +15,6 @@
     {
         width : 30px;
     }
-
-    label 
-    {
-    }
 </style>
 
 <div class="d-flex justify-content-center">
@@ -47,7 +43,10 @@
             </div>
 
             <div class="product_addtocart">
-                @Html.ActionLink("Thêm Vào Giỏ Hàng" , "" , "" , null , new {@class = "btn btn-primary"})
+                @using (Html.BeginForm("ShoppingCart", "Categories", FormMethod.Post))
+                {
+                    @Html.ActionLink("Thêm Vào Giỏ Hàng" , "AddItems", "Categories" , "" , new {@class = "btn btn-success"})
+                }
             </div>
         </div>
     </div>

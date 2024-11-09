@@ -25,6 +25,7 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
         // GET: Users/Home2/Details/5
         public ActionResult Details(int? id)
         {
+            Session["productid"] = id;
             return View(db.Products.Find(id));
         }     
         
@@ -160,7 +161,5 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
             model.products = product.ToList();
             return View(model);
         }
-
-
     }
 }

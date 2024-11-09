@@ -23,7 +23,6 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
         [HttpPost]
         public ActionResult CreateCustomer(Customer customer)
         {
-            LoginSignInController loginSignInController = new LoginSignInController();
             if (ModelState.IsValid)
             {
                 var new_Customer = new Customer()

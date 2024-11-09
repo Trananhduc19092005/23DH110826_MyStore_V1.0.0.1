@@ -1,0 +1,56 @@
+﻿@model Đồ_Án_BackUp.Models.Order
+
+@{
+    ViewBag.Title = "FindCustomer";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+
+<style>
+    .customercreate_body {
+        padding: 50px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        width: 500px;
+    }
+
+    .text {
+        height: 70vh;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .test {
+        height: 50%;
+    }
+</style>
+
+
+@using (Html.BeginForm())
+{
+    <div class="container">
+    </div>
+    <div class="container text mt-5">
+        <h5 style="margin : 200px 0 0 180px;"> Trước Khi Thêm Vào Giỏ Hàng Bạn Cần Phải Xác Nhận : </h5>
+        <div class="mt-5 d-flex test align-items-center justify-content-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Logo_Tiki_2023.png" />
+            <div class="customercreate_body" style="margin : 50px 0 0 100px;">
+                <div class="form-group">
+                    <h6> Số Lượng </h6>
+                    @Html.EditorFor(model => model.TotalAmount, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
+
+                    <h6> Phương Thức Thanh Toán </h6>
+                    @Html.EditorFor(model => model.PaymentStatus, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
+
+                    <h6> Địa Chỉ Giao Hàng </h6>
+                    @Html.EditorFor(model => model.AddressDelivery, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
+
+                    <input type="submit" value="Xác Nhận" class="btn btn-primary mt-2" />
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+}
+

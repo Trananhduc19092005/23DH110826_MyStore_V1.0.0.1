@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Đồ_Án_BackUp.Models.ShoppingCart>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+
+<style>
+    img {
+        width: 200px;
+    }
+</style>
+
+<div class="mt-5 mb-5" style="margin-left : 30px;">
+    @Html.ActionLink("Trang Chủ", "Index", "Home2", new { @class = "text-uppercase btn btn-outline-primary" }) ------->
+    @Html.ActionLink("Giỏ Hàng", "Index", "Categories", new { @class = "text-uppercase btn btn-outline-success" })
+</div>
+
+<div class="container d-flex flex-column align-items-center">
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th> Ảnh Sản Phẩm </th>
+                <th> Tên Sản Phẩm </th>
+                <th> Giá </th>
+                <th> Số Lượng </th>
+                <th> Tổng Giá Trị  </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var items in Model)
+            {
+                if (items.Customer.Username == Session["Username"].ToString())
+                {
+                    <tr>
+                        <td> <img src="@Html.DisplayFor(model => items.Product.ProductImage)" /></td>
+                        <td> @Html.DisplayFor(model => items.Product.ProductName)</td>
+                        <td> @Html.DisplayFor(model => items.Product.ProductPrice)<label>VNĐ</label></td>
+
+                        <td class="">
+                            <button class="btn btn-success btn-plus" onclick="tangSoluong(this)"> + </button>
+                            <label class="thanhgiasoluong">  0 </label>
+                            <button class="btn btn-success btn-minus" onclick="giamSoLuong(this)"> - </button>
+                        </td>
+
+                        <td>
+                            <p class="ThanhTien"> 0 </p>
+                        </td>
+                    </tr>
+                }
+
+
+            }
+        </tbody>
+
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+    <div class="TongGiaTri">
+        <p> Tổng Giá Trị Đơn Hàng </p>
+    </div>
+
+    <div class="ThanhToan">
+        <div class="form-group">
+            @Html.ActionLink("Thanh Toán", "", "", "", new { @class = "btn btn-primary" })
+        </div>
+    </div>
+
+</div>
+
+<script>
+    
+</script>

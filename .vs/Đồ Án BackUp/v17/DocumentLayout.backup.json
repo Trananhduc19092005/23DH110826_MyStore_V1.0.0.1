@@ -3,64 +3,196 @@
   "WorkspaceRootPath": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|e:\\aspnet mvc\\\u0111\u1ED3 \u00E1n backup\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\loginsignincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\loginsignincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\loginsignin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\loginsignin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\loginsignin\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\loginsignin\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\shared\\_usermasterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\shared\\_usermasterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|e:\\aspnet mvc\\\u0111\u1ED3 \u00E1n backup\\\u0111\u1ED3 \u00E1n backup\\models\\store.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\store.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|e:\\aspnet mvc\\\u0111\u1ED3 \u00E1n backup\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\loginsignincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\loginsignincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|e:\\aspnet mvc\\\u0111\u1ED3 \u00E1n backup\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\categories\\additems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\categories\\additems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\home2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\home2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\partielviewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\partielviewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\aohomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\aohomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\userorderinformartion\\xacnhandathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\userorderinformartion\\xacnhandathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\store.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\store.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\userorderinformartioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\userorderinformartioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\loginsignin\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\loginsignin\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\createcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\createcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\detailscustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\detailscustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|e:\\aspnet mvc\\\u0111\u1ED3 \u00E1n backup\\\u0111\u1ED3 \u00E1n backup\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\giaydephomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\giaydephomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|e:\\aspnet mvc\\\u0111\u1ED3 \u00E1n backup\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\productsearchuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\productsearchuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\productsearchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\productsearchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\detailscustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\customer\\detailscustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\customerid_productid_restore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\customerid_productid_restore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\store.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\store.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\store.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\store.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -71,32 +203,8 @@
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\shared\\_usermasterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\shared\\_usermasterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\store.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\store.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\quanhomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\quanhomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\aohomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\aohomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\giaydephomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\giaydephomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,28 +215,12 @@
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\phukienhomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\partielviewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\partielviewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\patialview_search_orderby_products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\users\\views\\home2\\patialview_search_orderby_products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\productsearchuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\productsearchuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\productsearchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\viewmodel\\productsearchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\shared\\_adminmasterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -139,10 +231,6 @@
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -151,24 +239,8 @@
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\models\\store.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\models\\store.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|solutionrelative:\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DEEE77F-B0E3-4D4A-9066-382EFFF81BE1}|\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp.csproj|E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0111\u1ED3 \u00E1n backup\\areas\\admin\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -182,7 +254,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 26,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,7 +262,235 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 23,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ShoppingCart.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T10:00:26.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Categories\\Index.cshtml*",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Categories\\Index.cshtml*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T09:39:47.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddItems.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Categories\\AddItems.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Categories\\AddItems.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Categories\\AddItems.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Categories\\AddItems.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T07:48:28.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:28:05.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\Categories.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\Categories.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\Categories.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T06:15:06.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Category\\Index.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAGQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T17:15:14.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T17:07:36.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\Category.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\Category.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\Category.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T17:03:48.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\CartService.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\CartService.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\CartService.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\CartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T17:02:17.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartItems.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\CartItems.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\CartItems.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\CartItems.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\CartItems.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:54:04.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Customer.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Customer.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Customer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T16:19:46.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "XacNhanDatHang.cshtml",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\UserOrderInformartion\\XacNhanDatHang.cshtml",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\UserOrderInformartion\\XacNhanDatHang.cshtml",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\UserOrderInformartion\\XacNhanDatHang.cshtml",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\UserOrderInformartion\\XacNhanDatHang.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T14:55:32.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CustomerId_ProductId_Restore.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\CustomerId_ProductId_Restore.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\CustomerId_ProductId_Restore.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\CustomerId_ProductId_Restore.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\CustomerId_ProductId_Restore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:41:20.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserOrderInformartionController.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\UserOrderInformartionController.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\UserOrderInformartionController.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\UserOrderInformartionController.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\UserOrderInformartionController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:26:19.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Store.Context.tt",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.Context.tt",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.Context.tt",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.Context.tt",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-08T14:22:57.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Category.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Category.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Category.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:22:55.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\OrderDetail.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:22:35.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Order.cs",
+              "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Order.cs",
+              "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Order.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T14:22:34.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "Store.edmx.diagram",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.edmx.diagram",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.edmx.diagram",
@@ -203,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 40,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\Edit.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\Edit.cshtml",
@@ -215,44 +515,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 41,
               "Title": "DetailsCustomer.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\DetailsCustomer.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\DetailsCustomer.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\DetailsCustomer.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\DetailsCustomer.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-08T11:55:27.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "CreateCustomer.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\CreateCustomer.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\CreateCustomer.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\CreateCustomer.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Customer\\CreateCustomer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T10:36:10.885Z"
+              "WhenOpened": "2024-11-08T10:36:10.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CustomerController.cs",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAqwEQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T10:24:47.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 51,
               "Title": "UsersController.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\UsersController.cs",
@@ -264,46 +565,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\User.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\User.cs",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\User.cs",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\User.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T05:50:32.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Login.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\LoginSignIn\\Login.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\LoginSignIn\\Login.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\LoginSignIn\\Login.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\LoginSignIn\\Login.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-08T05:33:27.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LoginSignInController.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\LoginSignInController.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\LoginSignInController.cs",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\LoginSignInController.cs",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\LoginSignInController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAjwCAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T19:14:30.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "SignUp.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\LoginSignIn\\SignUp.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\LoginSignIn\\SignUp.cshtml",
@@ -316,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 53,
               "Title": "PatialView_Search_OrderBy_Products.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\PatialView_Search_OrderBy_Products.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\PatialView_Search_OrderBy_Products.cshtml",
@@ -328,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "ProductSearchUser.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\ProductSearchUser.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\ProductSearchUser.cs",
@@ -340,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 38,
               "Title": "Search.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Search.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Search.cshtml",
@@ -352,19 +653,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "GiayDepHomePage.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\GiayDepHomePage.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\GiayDepHomePage.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\GiayDepHomePage.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\GiayDepHomePage.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:56:38.041Z"
+              "WhenOpened": "2024-11-07T11:56:38.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 52,
               "Title": "PhuKienHomePage.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\PhuKienHomePage.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\PhuKienHomePage.cshtml",
@@ -376,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 50,
               "Title": "QuanHomePage.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\QuanHomePage.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\QuanHomePage.cshtml",
@@ -388,19 +690,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 12,
               "Title": "AoHomePage.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\AoHomePage.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\AoHomePage.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\AoHomePage.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\AoHomePage.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:44:05.498Z"
+              "WhenOpened": "2024-11-07T11:44:05.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 10,
               "Title": "PartielViewProduct.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\PartielViewProduct.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\PartielViewProduct.cshtml",
@@ -408,48 +711,50 @@
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\PartielViewProduct.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:42:05.721Z"
+              "WhenOpened": "2024-11-07T11:42:05.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Details.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Details.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Details.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Details.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:16:03.381Z"
+              "WhenOpened": "2024-11-07T11:16:03.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Index.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Index.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Index.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Home2\\Index.cshtml",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAwwJ8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwJIAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:14:12.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T11:14:12.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Home2Controller.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\Home2Controller.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\Home2Controller.cs",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\Home2Controller.cs",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Controllers\\Home2Controller.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAAJkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T11:14:04.533Z"
+              "WhenOpened": "2024-11-07T11:14:04.533Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 31,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
@@ -461,19 +766,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
               "Title": "_UserMasterLayout.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Shared\\_UserMasterLayout.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Shared\\_UserMasterLayout.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Shared\\_UserMasterLayout.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Users\\Views\\Shared\\_UserMasterLayout.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFIAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T10:01:52.637Z"
+              "WhenOpened": "2024-11-07T10:01:52.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 55,
               "Title": "_AdminMasterLayout.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Shared\\_AdminMasterLayout.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Shared\\_AdminMasterLayout.cshtml",
@@ -485,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 54,
               "Title": "Web.config",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Web.config",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Web.config",
@@ -498,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ProductSearchVM.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\ProductSearchVM.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\ViewModel\\ProductSearchVM.cs",
@@ -510,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 56,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Controllers\\HomeController.cs",
@@ -522,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 48,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
@@ -534,19 +840,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 36,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Product.cs",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Product.cs",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Product.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T15:16:15.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 59,
               "Title": "Store.tt",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.tt",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.tt",
@@ -554,22 +860,24 @@
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.tt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-29T15:16:12.934Z"
+              "WhenOpened": "2024-10-29T15:16:12.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 14,
               "Title": "Store.edmx [Diagram1]",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.edmx",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.edmx",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.edmx [Diagram1]",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Models\\Store.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-10-29T15:16:07.619Z"
+              "WhenOpened": "2024-10-29T15:16:07.619Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 58,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Details.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Details.cshtml",
@@ -581,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 57,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Create.cshtml",
@@ -593,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 49,
               "Title": "Home.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Home.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Home.cshtml",
@@ -605,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 30,
               "Title": "Home.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Home.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Home.cshtml",
@@ -617,19 +925,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T06:46:13.859Z"
+              "WhenOpened": "2024-10-29T06:46:13.859Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Create.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
@@ -637,23 +946,25 @@
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T06:46:12.715Z"
+              "WhenOpened": "2024-10-29T06:46:12.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAuwFUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:45:35.649Z"
+              "WhenOpened": "2024-10-29T06:45:35.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\ProductsController.cs",
@@ -661,11 +972,12 @@
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAAAAAJwAAACOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:43:35.633Z"
+              "WhenOpened": "2024-10-29T06:43:35.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 28,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
@@ -673,23 +985,25 @@
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T06:27:30.108Z"
+              "WhenOpened": "2024-10-29T06:27:30.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 29,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
               "ToolTip": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
               "RelativeToolTip": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T06:27:29.259Z"
+              "WhenOpened": "2024-10-29T06:27:29.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 60,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Delete.cshtml",
@@ -701,7 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 47,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\ASPNET MVC\\\u0110\u1ED3 \u00C1n BackUp\\\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "\u0110\u1ED3 \u00C1n BackUp\\Areas\\Admin\\Views\\Products\\Index.cshtml",

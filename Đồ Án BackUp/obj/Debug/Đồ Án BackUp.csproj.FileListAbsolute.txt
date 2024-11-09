@@ -139,6 +139,8 @@ E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\EntityFramework.SqlServer.dl
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\Microsoft.Web.Infrastructure.dll
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\Newtonsoft.Json.dll
+E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\PagedList.dll
+E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\PagedList.Mvc.dll
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\System.Web.Helpers.dll
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\System.Web.Mvc.dll
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\System.Web.Optimization.dll
@@ -149,6 +151,8 @@ E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\System.Web.WebPages.Razor.dl
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\WebGrease.dll
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\EntityFramework.xml
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\EntityFramework.SqlServer.xml
+E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\PagedList.xml
+E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\PagedList.Mvc.xml
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\System.Web.Helpers.xml
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\System.Web.Mvc.xml
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\System.Web.Optimization.xml
@@ -164,7 +168,3 @@ E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\obj\Debug\Đồ Án BackUp.cspro
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\obj\Debug\__ _n Ba.F66F47B6.Up2Date
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\obj\Debug\Đồ Án BackUp.dll
 E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\obj\Debug\Đồ Án BackUp.pdb
-E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\PagedList.dll
-E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\PagedList.Mvc.dll
-E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\PagedList.xml
-E:\ASPNET MVC\Đồ Án BackUp\Đồ Án BackUp\bin\PagedList.Mvc.xml

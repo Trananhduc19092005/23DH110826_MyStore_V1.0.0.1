@@ -18,6 +18,7 @@ namespace Đồ_Án_BackUp.Models
         public Product()
         {
             this.OrderDetails = new HashSet<OrderDetail>();
+            this.ShoppingCarts = new HashSet<ShoppingCart>();
         }
     
         public int ProductID { get; set; }
@@ -30,5 +31,7 @@ namespace Đồ_Án_BackUp.Models
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<ShoppingCart> ShoppingCarts { get; set; }
     }
 }

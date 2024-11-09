@@ -1,0 +1,107 @@
+﻿@model Đồ_Án_BackUp.Models.ViewModel.Category
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+
+<script>
+    function CartUpdateQuantity(id, quantity) {
+        if (quantity < 1) {
+            return;
+        }
+        const Form = document.createElement('form')
+        form.method = 'post'
+        form.action = '@Url.Action("UpdateQuantity", "Cart");
+
+        const idInput = document.createElement('input');
+        idInput.type = 'hidden'
+        idInput.name = 'id' 
+        idInput.value = id;
+        form.appendChild(idInput)
+
+        const quantityInput = document.createElement('input')
+        quantityInput.type = 'hidden'
+        quantityInput.name = 'quantity'
+        quantityInput.value = newQuantity
+        form.appendChild(quantityInput)
+
+        document.body.appendChild(form)
+        form.submit();
+    }
+</script>
+
+<h2> Giỏ Hàng </h2>
+<div class="shoppingcart">
+    @if (!Model.Items.Any())
+    {
+        <p> Chưa Có Sản Phẩm </p>
+    }
+    else
+    {
+        <div class="col col-md-8 cart-section">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            Sản Phẩm
+                        </th>
+
+                        <th> Số Lượng </th>
+
+                        <th> Đơn Giá </th>
+
+                        <th> Thành Tiền </th>
+
+                        <th title="Xóa Tất Cả Mặt Hàng Trong Giỏ">
+                            <a href="@Url.Action("ClearCart" , "Category" , null)"> Clear Cart </a>
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var items in Model.Items)
+                    {
+                        <tr>
+                            <td> <img src="@items.ProductImage" style="max-height : 80px"></td>
+                            <td class="col-md-3">
+                                @items.ProductName
+                            </td>
+
+                            <td>
+                                @using (Html.BeginForm("UpdateQuantity", "Category", FormMethod.Post))
+                                {
+                                    <input type="hidden" name="id" value="@items.ProductId" />
+                                    <button type="button" style="width : 20px" onclick="CartUpdateQuantity(@items.ProductId , @items.Quantity) - 1)"> - </button>
+                                    <input type="number" name="quantity" value="@items.Quantity" min="1" max="100" style="width : 40px; text-align : right" readonly />
+                                    <button type="button" style="width : 20px" onclick="CartUpdateQuantity(@items.ProductId , @items.Quantity) + 1)"> + </button>
+
+                                }
+
+                                
+                            </td>
+
+                            <td>@items.UnitPrice.ToString("NO")</td>
+                            <td>@items.TotalPrice.ToString("NO")</td>
+                            <td>
+                                <a href="@Url.Action("RemoveFromCart" , "Category" , new {id = items.ProductId})">
+                                    Delete Items
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <hr />
+        </div>
+
+        <div class="col g-md-3 cart-section">
+            <div> <strong> Tổng Giá Trị : @Model.TotalValue().ToString("NO")</strong></div>
+            <div> @Html.ActionLink("Mua Hàng" , " " , " ")</div>
+        </div>
+    }
+</div>
+
+<div class="col-md-12">
+    @Html.ActionLink("Tiếp Tục Mua Hàng" , "Index" , "Home2" , null , new {@class = "btn btn-warning cart-button"})
+</div>

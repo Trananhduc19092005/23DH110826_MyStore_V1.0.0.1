@@ -2,7 +2,6 @@
 
 @{
     ViewBag.Title = "CreateCustomer";
-    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
 }
 
 <style>
@@ -12,22 +11,20 @@
         width: 500px;
     }
 
-    .text
-    {
-        height : 70vh;
+    .text {
+        height: 70vh;
     }
 
-    img
-    {
-        width : 500px;
+    img {
+        width: 500px;
     }
 
-    .test{
-        height : 50%;
+    .test {
+        height: 50%;
     }
-
 </style>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 @using (Html.BeginForm())
 {
     <div class="container">
@@ -42,13 +39,13 @@
                     @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
 
                     <h6> Số Điện Thoại </h6>
-                    @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
+                    @Html.EditorFor(model => model.CustomerPhone, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
 
                     <h6> Email </h6>
                     @Html.EditorFor(model => model.CustomerEmail, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
 
                     <h6> Địa Chỉ </h6>
-                    @Html.EditorFor(model => model.CustomerEmail, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
+                    @Html.EditorFor(model => model.CustomerAddress, new { htmlAttributes = new { @class = "form-control mt-2 mb-2 w-100" } })
 
                     <input type="submit" value="Thêm" class="btn btn-primary mt-2" />
 

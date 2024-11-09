@@ -20,6 +20,7 @@
     <Property Name="Username" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
     <NavigationProperty Name="Orders" Relationship="Self.FK__Order__CustomerI__412EB0B6" FromRole="Customer" ToRole="Order" />
     <NavigationProperty Name="User" Relationship="Self.FK_User_Customer" FromRole="Customer" ToRole="User" />
+    <NavigationProperty Name="ShoppingCarts" Relationship="StoreModel.FK__ShoppingC__Custo__5EBF139D" FromRole="Customer" ToRole="ShoppingCart" />
   </EntityType>
   <EntityType Name="Order">
     <Key>
@@ -58,6 +59,7 @@
     <Property Name="ProductImage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <NavigationProperty Name="Category" Relationship="Self.FK_Pro_Category" FromRole="Product" ToRole="Category" />
     <NavigationProperty Name="OrderDetails" Relationship="Self.FK__OrderDeta__Produ__440B1D61" FromRole="Product" ToRole="OrderDetail" />
+    <NavigationProperty Name="ShoppingCarts" Relationship="StoreModel.FK__ShoppingC__Produ__5DCAEF64" FromRole="Product" ToRole="ShoppingCart" />
   </EntityType>
   <EntityType Name="sysdiagram">
     <Key>
@@ -166,5 +168,49 @@
       <End Role="Product" EntitySet="Products" />
       <End Role="OrderDetail" EntitySet="OrderDetails" />
     </AssociationSet>
+    <EntitySet Name="ShoppingCarts" EntityType="StoreModel.ShoppingCart" />
+    <AssociationSet Name="FK__ShoppingC__Custo__5EBF139D" Association="StoreModel.FK__ShoppingC__Custo__5EBF139D">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="ShoppingCart" EntitySet="ShoppingCarts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ShoppingC__Produ__5DCAEF64" Association="StoreModel.FK__ShoppingC__Produ__5DCAEF64">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="ShoppingCart" EntitySet="ShoppingCarts" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="ShoppingCart">
+    <Key>
+      <PropertyRef Name="ProductId" />
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="ShoppingCartId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="CustomerId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="StoreModel.FK__ShoppingC__Custo__5EBF139D" FromRole="ShoppingCart" ToRole="Customer" />
+    <NavigationProperty Name="Product" Relationship="StoreModel.FK__ShoppingC__Produ__5DCAEF64" FromRole="ShoppingCart" ToRole="Product" />
+  </EntityType>
+  <Association Name="FK__ShoppingC__Custo__5EBF139D">
+    <End Type="StoreModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="StoreModel.ShoppingCart" Role="ShoppingCart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="ShoppingCart">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ShoppingC__Produ__5DCAEF64">
+    <End Type="StoreModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="StoreModel.ShoppingCart" Role="ShoppingCart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="ShoppingCart">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>
