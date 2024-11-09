@@ -46,13 +46,14 @@
                     @if (Session["Username"] != null)
                     {
                         <div class="UserAccount">
-                            <a href="/Users/Customer/DetailsCustomer" class="text-dark">
+                            <a href="/Users/Customer/DetailsCustomer" class="text-dark text-decoration-none" style="margin-right : 10px">
                                 <i class="fa-solid fa-user text-decoration-none"></i> Chào Mừng @Session["Username"].ToString()
+                                @Html.ActionLink("Đăng Xuất" , "LogOut", "LoginSignIn" , new {Area = "Users"}, new {@class = "btn btn-warning"})
                             </a>
                         </div>
 
                         <div class="ShoppingCart">
-                            @Html.ActionLink("Giỏ Hàng" , "Index" , "Categories" , new {Area = "Users"} , new {@class = "text-decoration-none text-dark"})
+                            @Html.ActionLink("Giỏ Hàng" , "Index" , "Categories" , new {Area = "Users"} , new {@class = "btn btn-success"})
                         </div>
                     }
                     else

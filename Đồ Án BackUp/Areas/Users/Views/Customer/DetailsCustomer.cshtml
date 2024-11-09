@@ -27,6 +27,10 @@
         border-radius : 20px;
     }
 </style>
+<div class="mt-5 mb-5" style="margin-left : 30px;">
+    @Html.ActionLink("Trang Chủ", "Index", "Home2", new { Area = "Users" } , new { @class = "text-uppercase btn btn-outline-primary" }) ------->
+    @Html.ActionLink("Thông Tin Người Dùng", "DetailsCustomer", "Customer", new {Area = "Users"} , new { @class = "text-uppercase btn btn-outline-success" })
+</div>
 
 @foreach (var customers in Model)
 {

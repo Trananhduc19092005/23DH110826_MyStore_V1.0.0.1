@@ -33,19 +33,33 @@
                 if (items.Customer.Username == Session["Username"].ToString())
                 {
                     <tr>
+
                         <td> <img src="@Html.DisplayFor(model => items.Product.ProductImage)" /></td>
+
                         <td> @Html.DisplayFor(model => items.Product.ProductName)</td>
-                        <td> @Html.DisplayFor(model => items.Product.ProductPrice)<label>VNĐ</label></td>
+
+                        <td> @Html.DisplayFor(model => items.Product.ProductPrice) <label>VNĐ</label></td>
+
+
 
                         <td class="">
-                            <button class="btn btn-success btn-plus" onclick="tangSoluong(this)"> + </button>
-                            <label class="thanhgiasoluong">  0 </label>
-                            <button class="btn btn-success btn-minus" onclick="giamSoLuong(this)"> - </button>
+
+                            <button class="btn btn-success btn-plus" onclick="tangSoluong()"> + </button>
+
+                            <label class="thanhgiasoluong">  0 </label>
+
+                            <button class="btn btn-success btn-minus" onclick="giamSoLuong()"> - </button>
+
                         </td>
 
+
+
                         <td>
-                            <p class="ThanhTien"> 0 </p>
+
+                            <p> 0 </p>
+
                         </td>
+
                     </tr>
                 }
 
@@ -71,5 +85,32 @@
 </div>
 
 <script>
-    
+    function tangSoluong() {
+        var quantityElement = event.target.parentElement.querySelector(".thanhgiasoluong");
+        var totalPriceElement = event.target.parentElement.nextElementSibling.querySelector("p");
+
+        var currentQuantity = parseInt(quantityElement.textContent);
+        var price = parseFloat(event.target.parentElement.previousElementSibling.textContent.replace("VNĐ", ""));
+
+        currentQuantity++;
+        var newTotalPrice = currentQuantity * price;
+
+        quantityElement.textContent = currentQuantity;
+        totalPriceElement.textContent = newTotalPrice.toFixed(2) + " VNĐ";
+    }
+
+    function giamSoLuong() {
+        var quantityElement = event.target.parentElement.querySelector(".thanhgiasoluong");
+        var totalPriceElement = event.target.parentElement.nextElementSibling.querySelector("p");
+
+        var currentQuantity = parseInt(quantityElement.textContent);
+        var price = parseFloat(event.target.parentElement.previousElementSibling.textContent.replace("VNĐ", ""));
+
+        currentQuantity--;
+        var newTotalPrice = currentQuantity * price;
+
+        quantityElement.textContent = currentQuantity;
+        totalPriceElement.textContent = newTotalPrice.toFixed(2) + " VNĐ";
+
+    }
 </script>

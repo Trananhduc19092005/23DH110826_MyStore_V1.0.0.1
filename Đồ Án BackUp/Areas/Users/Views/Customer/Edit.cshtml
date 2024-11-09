@@ -30,6 +30,11 @@
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
     @Html.HiddenFor(model => model.CustomerID)
     @Html.AntiForgeryToken()
+<div class="mt-5 mb-5" style="margin-left : 30px;">
+    @Html.ActionLink("Trang Chủ", "Index", "Home2", new { Area = "Users" }, new { @class = "text-uppercase btn btn-outline-primary" }) ------->
+    @Html.ActionLink("Thông Tin Người Dùng", "DetailsCustomer", "Customer", new { Area = "Users" }, new { @class = "text-uppercase btn btn-outline-success" }) ------->
+    @Html.ActionLink("Chỉnh Sửa Người Dùng", "Edit", "Customer", new { id = Model.CustomerID, Area = "Users" }, new { @class = "text-uppercase btn btn-outline-success" })
+</div>
 
     <div class="container">
     </div>

@@ -87,5 +87,13 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
             }
             return false;
         }
+
+        // Đăng xuất
+
+        public ActionResult LogOut()
+        {
+            Session.Clear();
+            return RedirectToAction("Login", "LoginSignIn");
+        }
     }
 }

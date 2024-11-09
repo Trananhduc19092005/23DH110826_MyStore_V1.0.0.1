@@ -32,6 +32,7 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
                     id = check.CustomerID;
                 }
                 productid = Convert.ToInt32(Session["productid"].ToString());
+                
                 var Category = new ShoppingCart()
                 {
                     CustomerId = id,
@@ -41,7 +42,7 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
 
                 db.ShoppingCarts.Add(Category);
                 db.SaveChanges();
-                return RedirectToAction("Index" , "Home2");
+                return RedirectToAction("Index", "Home2");
             }
             return View(cart);
         }
