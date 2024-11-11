@@ -25,33 +25,34 @@
             </th>
         </tr>
 
-      
 
-        @foreach (var items in Model)
+
+        @if (Session["AdminUsername"].ToString() != null)
         {
-            <tr>
+            foreach (var items in Model)
+            {
+                <tr>
 
-                <td style="padding : 10px 50px">
-                    @Html.DisplayFor(Items => items.CategoryID)
-                </td>
+                    <td style="padding : 10px 50px">
+                        @Html.DisplayFor(Items => items.CategoryID)
+                    </td>
 
 
-                <td class="text-start" style="padding : 10px 50px">
-                    @Html.DisplayFor(Items => items.CategoryName)
-                </td>
+                    <td class="text-start" style="padding : 10px 50px">
+                        @Html.DisplayFor(Items => items.CategoryName)
+                    </td>
 
-            
-                <td class="text-center">
-                    @Html.ActionLink("Edit", "Edit", new { id = items.CategoryID }, new { @class = "btn btn-primary" }) |
-                    @Html.ActionLink("Details", "Details", new { id = items.CategoryID }, new { @class = "btn btn-info text-light" }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = items.CategoryID }, new { @class = "btn btn-danger" })
-                </td>
-            </tr>
 
-           
+                    <td class="text-center">
+                        @Html.ActionLink("Edit", "Edit", new { id = items.CategoryID }, new { @class = "btn btn-primary" }) |
+                        @Html.ActionLink("Details", "Details", new { id = items.CategoryID }, new { @class = "btn btn-info text-light" }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = items.CategoryID }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
         }
 
-        
+
     </table>
 
     @Html.ActionLink("Back To Catogeries Home " , "Home" , " " , new {@class = "btn btn-success mt-3 mb-3"}) 

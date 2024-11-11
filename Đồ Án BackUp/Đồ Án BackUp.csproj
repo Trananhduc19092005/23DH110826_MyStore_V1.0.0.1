@@ -136,6 +136,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminLogInSignUpController.cs" />
     <Compile Include="Areas\Admin\Controllers\CategoriesController.cs" />
     <Compile Include="Areas\Admin\Controllers\ProductsController.cs" />
     <Compile Include="Areas\Users\Controllers\CategoriesController.cs" />
@@ -275,6 +276,14 @@
     <Content Include="Areas\Users\Views\Category\Index.cshtml" />
     <Content Include="Areas\Users\Views\Categories\AddItems.cshtml" />
     <Content Include="Areas\Users\Views\Categories\Index.cshtml" />
+    <Content Include="Areas\Users\Views\LoginSignIn\UserHomePage.cshtml" />
+    <Content Include="Areas\Users\Views\LoginSignIn\EditUserAccount.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminLogInSignUp\SignUp.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminLogInSignUp\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminLogInSignUp\UserHomePage.cshtml" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminLogInSignUp\EditUserAccount.cshtml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />

@@ -93,53 +93,55 @@
         </tr>
 
 
-
-        @foreach (var items in Model.Products)
+        @if (Session["AdminUsername"].ToString() != null)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(x => items.ProductID)
-                </td>
+            foreach (var items in Model.Products)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(x => items.ProductID)
+                    </td>
 
-                <td>
-                    @Html.DisplayFor(x => items.ProductName)
-                </td>
+                    <td>
+                        @Html.DisplayFor(x => items.ProductName)
+                    </td>
 
-                <td>
-                    @Html.DisplayFor(x => items.ProductDescription)
-                </td>
+                    <td>
+                        @Html.DisplayFor(x => items.ProductDescription)
+                    </td>
 
-                <td>
-                    @Html.DisplayFor(x => items.ProductPrice)
-                </td>
+                    <td>
+                        @Html.DisplayFor(x => items.ProductPrice)
+                    </td>
 
-                <td>
-                    <img src="@Html.DisplayFor(x => items.ProductImage)"/>
-                </td>
+                    <td>
+                        <img src="@Html.DisplayFor(x => items.ProductImage)" />
+                    </td>
 
-                <td>
-                    @Html.DisplayFor(x => items.Category.CategoryName)
-                </td>
+                    <td>
+                        @Html.DisplayFor(x => items.Category.CategoryName)
+                    </td>
 
-                <td>
+                    <td>
 
-                    @Html.ActionLink("Chỉnh Sửa", "Edit", "Products", 
-                   new { id = items.ProductID }, 
-                   new {@class = "btn btn-primary"})
+                        @Html.ActionLink("Chỉnh Sửa", "Edit", "Products",
+                    new { id = items.ProductID },
+                    new { @class = "btn btn-primary" })
 
-                    @Html.ActionLink("Chi Tiết", "Details", "Products", 
-                   new { id = items.ProductID }, 
-                   new { @class = "btn btn-success" })
+                        @Html.ActionLink("Chi Tiết", "Details", "Products",
+                    new { id = items.ProductID },
+                    new { @class = "btn btn-success" })
 
-                    @Html.ActionLink("Xóa Sản Phẩm", "Delete", "Products", 
-                   new { id = items.ProductID }, 
-                   new { @class = "btn btn-danger" })
+                        @Html.ActionLink("Xóa Sản Phẩm", "Delete", "Products",
+                    new { id = items.ProductID },
+                    new { @class = "btn btn-danger" })
 
-                </td>
+                    </td>
 
-            </tr>
+                </tr>
+            }
         }
-    </table>
+        </table>
 
 
     <div class="pagination">

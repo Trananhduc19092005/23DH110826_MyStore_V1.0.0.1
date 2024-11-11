@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Đồ_Án_BackUp.Models.User>
+@{
+    ViewBag.Title = "UserHomePage";
+    Layout = "~/Areas/Users/Views/Shared/_UserMasterLayout.cshtml";
+}
+
+<style>
+    .customercreate_body {
+        padding: 50px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        width: 500px;
+    }
+
+    .text {
+        height: 70vh;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .test {
+        height: 50%;
+    }
+
+    p {
+        border-radius: 20px;
+    }
+</style>
+<div class="mt-5 mb-5" style="margin-left : 30px;">
+    @Html.ActionLink("Trang Chủ", "Index", "Home2", new { Area = "Users" }, new { @class = "text-uppercase btn btn-outline-primary" }) ------->
+    @Html.ActionLink("Thông Tin Tài Khoản", "UserHomePage", "LoginSignIn", new { Area = "Users" }, new { @class = "text-uppercase btn btn-outline-success" })
+</div>
+
+<div class="container text mt-5">
+    <div class="d-flex test align-items-center justify-content-center" style="margin: 200px 0 0 0">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Logo_Tiki_2023.png" />
+        <div class="customercreate_body" style="margin : 50px 0 0 100px;">
+            <div class="form-group">
+                @foreach (var items in Model)
+                {
+                    if (Session["Username"].ToString().Equals(items.Username))
+                    {
+                        <div class="Username_Display">
+                            <h6> Tên Người Dùng </h6>
+                            <p class="bg-primary p-3 text-light">
+                                @Html.DisplayFor(model => items.Username)
+                            </p>
+                        </div>
+
+                        <div class="UserPassword_Display">
+                            <h6> Mật Khẩu Người Dùng </h6>
+                            <p class="bg-primary p-3 text-light">
+                                @Html.DisplayFor(model => items.Password)
+                            </p>
+                        </div>
+                    }
+                }
+                @Html.ActionLink("Chỉnh Sửa Thông Tin Tài Khoản", "EditUserAccount", "LoginSignIn", new { Area = "Users", UserName = Session["Username"].ToString() } , new {@class = "btn btn-primary"})
+            </div>
+        </div>
+
+    </div>
+</div>
+   
+
+

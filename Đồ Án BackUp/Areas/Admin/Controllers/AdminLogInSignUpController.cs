@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Đồ_Án_BackUp.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -6,16 +7,13 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using Đồ_Án_BackUp.Models;
-using Microsoft.Ajax.Utilities;
 
-namespace Đồ_Án_BackUp.Areas.Users.Controllers
+namespace Đồ_Án_BackUp.Areas.Admin.Controllers
 {
-    public class LoginSignInController : Controller
+    public class AdminLogInSignUpController : Controller
     {
         MyStoreEntities db = new MyStoreEntities();
         // GET: Users/LoginSignIn
-        public User user_customer = new User();
 
         public ActionResult SignUp()
         {
@@ -26,7 +24,7 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
         public ActionResult SignUp(User user)
         {
             var CheckExistUser = db.Users.Any(x => x.Username.Equals(user.Username));
-            
+
             if (!CheckExistUser)
             {
                 var users = new User()
@@ -34,20 +32,14 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
                     Username = user.Username,
                     Password = user.Password,
                     Repassword = user.Repassword,
-                    UserRole = "U"
+                    UserRole = "A"
                 };
-
-                // Lưu thông tin user 
-
-                user_customer.UserRole = "U";
-                user_customer.Password = user.Password;
-                user_customer.Username = user.Username;
 
                 if (ModelState.IsValid)
                 {
                     db.Users.Add(users);
                     db.SaveChanges();
-                    return RedirectToAction("Login", "LoginSignIn");
+                    return RedirectToAction("Login", "AdminLogInSignUp");
                 }
                 else
                 {
@@ -62,16 +54,9 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
         {
             if (CheckLogin(user))
             {
-                Session["Role"] = user.UserRole;
-                Session["Username"] = user.Username;
-                if (db.Customers.Any(x => x.Username.Equals(user.Username)))
-                {
-                    return RedirectToAction("Index", "Home2");
-                }
-                else
-                {
-                    return RedirectToAction("CreateCustomer", "Customer");
-                }
+                Session["AdminRole"] = user.UserRole;
+                Session["AdminUsername"] = user.Username;
+                return RedirectToAction("Index", "Products");
             }
             return View(user);
         }
@@ -83,7 +68,7 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
 
         public bool CheckLogin(User user)
         {
-            user.UserRole = "U";
+            user.UserRole = "A";
             if (db.Users.Where(x => (x.Username.Equals(user.Username)) && (x.Password.Equals(user.Password)) && (x.UserRole.Equals(user.UserRole))).FirstOrDefault() != null)
             {
                 return true;
@@ -96,7 +81,7 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
         public ActionResult LogOut()
         {
             Session.Clear();
-            return RedirectToAction("Login", "LoginSignIn");
+            return RedirectToAction("Login", "AdminLogInSignUp");
         }
 
         public ActionResult UserHomePage()
@@ -124,10 +109,10 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
         {
             if (ModelState.IsValid)
             {
-                user.UserRole = "U";
+                user.UserRole = "A";
                 db.Entry(user).State = EntityState.Modified;
                 await db.SaveChangesAsync();
-                return RedirectToAction("UserHomePage", "LoginSignIn");
+                return RedirectToAction("UserHomePage", "AdminLogInSignUp");
             }
             return View(user);
         }

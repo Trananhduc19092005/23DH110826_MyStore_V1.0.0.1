@@ -11,7 +11,8 @@ namespace Đồ_Án_BackUp.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Customer
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -23,7 +24,10 @@ namespace Đồ_Án_BackUp.Models
     
         public int CustomerID { get; set; }
         public string CustomerName { get; set; }
+
+        [DataType(DataType.PhoneNumber)]
         public string CustomerPhone { get; set; }
+        [DataType(DataType.EmailAddress)]
         public string CustomerEmail { get; set; }
         public string CustomerAddress { get; set; }
         public string Username { get; set; }

@@ -42,7 +42,7 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
 
                 db.ShoppingCarts.Add(Category);
                 db.SaveChanges();
-                return RedirectToAction("Index", "Home2");
+                return RedirectToAction("Index", "Categories");
             }
             return View(cart);
         }

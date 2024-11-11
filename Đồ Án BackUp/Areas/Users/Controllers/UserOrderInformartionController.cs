@@ -26,7 +26,7 @@ namespace Đồ_Án_BackUp.Areas.Users.Controllers
                 if (FindCustomer != null)
                 {
                     var check = FindCustomer.Where(x => x.CustomerID == x.CustomerID).FirstOrDefault();
-                    id = check.CustomerID;
+                    id = check.CustomerID;                    
                 }
 
                 var CustomerOrder = new Order()

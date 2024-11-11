@@ -43,9 +43,9 @@
             </div>
 
             <div class="product_addtocart">
-                @using (Html.BeginForm("ShoppingCart", "Categories", FormMethod.Post))
+                @using (Html.BeginForm("AddItems", "Categories", FormMethod.Post))
                 {
-                    @Html.ActionLink("Thêm Vào Giỏ Hàng" , "AddItems", "Categories" , "" , new {@class = "btn btn-success"})
+                    <input type="submit" value="Thêm Vào Giỏ Hàng" class="btn btn-success"/>
                 }
             </div>
         </div>

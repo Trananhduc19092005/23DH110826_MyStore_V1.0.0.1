@@ -46,9 +46,15 @@
                     @if (Session["Username"] != null)
                     {
                         <div class="UserAccount">
-                            <a href="/Users/Customer/DetailsCustomer" class="text-dark text-decoration-none" style="margin-right : 10px">
-                                <i class="fa-solid fa-user text-decoration-none"></i> Chào Mừng @Session["Username"].ToString()
-                                @Html.ActionLink("Đăng Xuất" , "LogOut", "LoginSignIn" , new {Area = "Users"}, new {@class = "btn btn-warning"})
+                            <a href="/Users/LoginSignIn/UserHomePage" class="text-dark text-decoration-none" style="margin-right : 10px">
+                                 <i class="fa-solid fa-user text-decoration-none"></i> Chào Mừng @Session["Username"].ToString()
+                                 @Html.ActionLink("Đăng Xuất", "LogOut", "LoginSignIn", new { Area = "Users" }, new { @class = "btn btn-danger" })
+                            </a>
+                        </div>
+
+                        <div class="User_Account__Detail__Change" style="margin-right : 10px;">
+                            <a href="/Users/Customer/DetailsCustomer" class="btn btn-warning">
+                                Quản Lý Thông Tin Đặt Hàng - Giao Hàng
                             </a>
                         </div>
 
